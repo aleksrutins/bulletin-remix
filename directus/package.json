@@ -1,0 +1,16 @@
+{
+  "name": "directus-railway",
+  "version": "1.0.0",
+  "description": "Directus on railway example",
+  "scripts": {
+    "start": "npx directus start"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "directus": "^10.6.2",
+    "pg": "^8.11.3",
+    "sqlite3": "^5.1.6"
+  }
+}
